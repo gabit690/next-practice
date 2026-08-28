@@ -10,7 +10,7 @@ import {
 } from "@heroicons/react/24/outline";
 import { useActionState } from "react";
 import { Button } from "@/app/ui/button";
-import { createInvoice, type State } from "../actions";
+import { createInvoice, type State } from "../../lib/actions";
 
 const initialState: State = { message: null, errors: {} };
 
